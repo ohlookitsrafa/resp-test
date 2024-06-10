@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive webpage test</title>
+
+<style>
+
+    body {  
+            background-color: snow;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            z-index: 0;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    
+    ul {
+            list-style-type: none;
+            margin: 0;
+            overflow: hidden;
+            padding: 0px;
+            background-color: snow;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            border-bottom: 1px solid rgb(100, 100, 100);
+            
+            
+
+        }
+
+    li {
+            font-size: 25px;
+            color: black;
+            float: left;
+            display: block;
+            padding: 30px;
+            margin: auto;
+            overflow-x: hidden;
+        }
+
+    @media screen and (max-width: 400px) {
+
+
+     .navbar{
+            float: right;
+            margin-right: 0px;
+            height:0;
+            overflow:hidden;
+            flex-direction: column;
+            align-items: center;
+            transition:all 0.5s ease-in-out;
+        }
+
+    .navname {
+        display: flex;
+        justify-content: space-between;
+        }
+    }
+     li a {
+            text-decoration: none;
+            color: black;
+        }
+
+    li:hover:not(.navname) {
+            background-color: rgb(200, 200, 200);
+        }
+
+    .columnleft {
+            float: left;
+            width: 60%;
+
+        }
+
+    .columnright {
+            float: right;
+            width: 40%;
+
+        }
+
+    .button {
+            border: 1px solid bka;
+            color: white;
+            background-color: red;
+            padding: 30px 64px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+    .hamburger{
+            display:none;
+            border:none;
+            background-color:transparent;
+        }
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    
+<div>
+    <ul>
+
+        <li class="NavName" ;style="font-size: 35PX;"><a href="">Hoyoverse</a></li>
+
+        <li class="navbar"><a href="#B3">home</a></li>
+
+        <li class="navbar"><a href="#B3">news</a></li>
+
+        <li class="navbar"><a href="#B3">popular</a></li>
+
+        <li class="navbar"><a href="#B4">trending</a></li>
+
+        <li class="navbar"><a href="#B5">categories</a></li>
+    
+    </ul>
+    <button class="hamburger"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg></button>
+
+    <div style="padding-top: 60px;">        </div>
+</div>
+
+<div class="section1" style="display: inline-block;">
+    
+    <div class="columnleft"><img  style="height: 330px; width: 100%;" src="mainpic.jpeg" alt="main page picture"></div>
+    <div class="columnleft">
+        <div style="float: left; width: 45%;"><h1>HONKAI STAR RAIL PATCH UP UPDATE 2.3 </h1></div>
+        <div style="float: right; width: auto;"><button class="button" style="text-align: center;">READ MORE</button>
+        </div>
+    </div>
+
+    <div class="columnright"> 
+            <div><H1>News</H1></div>
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
